@@ -1,0 +1,39 @@
+.board-container {
+    text-align: center;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(10, 40px);
+    grid-template-rows: repeat(10, 40px);
+    gap: 2px;
+    margin: auto;
+  }
+  
+  .cell-wrapper {
+    display: flex;
+  }
+  
+  .cell {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cell.ship {
+    border: none;
+  }
+  
+  .cell.hit {
+    background-color: red;
+    color: white;
+  }
+  
+  .cell.miss {
+    background-color: gray;
+    color: white;
+  }
+  

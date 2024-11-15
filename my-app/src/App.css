@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 0;
+}
+
+.game-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.board {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: inline-block;
+  border: 2px solid black;
+  background-color: lightblue;
+}
+
+.labels-row, .row {
+  display: flex;
+}
+
+.label {
+  font-weight: bold;
+  color: white;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #001a33; /* Dark blue background */
+  border: 1px solid black;
+}
+
+.corner {
+  width: 40px;
+  height: 40px;
+  background-color: #001a33;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.cell:hover {
+  background-color: #ddd;
+}
+
+.ship {
+  background-color: lightgray; /* Default ship color */
+}
+
+.key, .log {
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: white;
+  width: 300px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.key h3, .log h3 {
+  margin-top: 0;
+}
+
+.key ul, .log ul {
+  list-style: none;
+  padding: 0;
+}
+
+.key li, .log li {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.key-color {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border: 1px solid black;
+}
