@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Boards-battleship/static/css/main.1105547e.css",
+    "main.js": "/Boards-battleship/static/js/main.7e1c635e.js",
+    "static/js/488.9c92ff38.chunk.js": "/Boards-battleship/static/js/488.9c92ff38.chunk.js",
+    "index.html": "/Boards-battleship/index.html",
+    "main.1105547e.css.map": "/Boards-battleship/static/css/main.1105547e.css.map",
+    "main.7e1c635e.js.map": "/Boards-battleship/static/js/main.7e1c635e.js.map",
+    "488.9c92ff38.chunk.js.map": "/Boards-battleship/static/js/488.9c92ff38.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1105547e.css",
+    "static/js/main.7e1c635e.js"
+  ]
+}
